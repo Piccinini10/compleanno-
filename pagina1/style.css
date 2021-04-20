@@ -1,0 +1,478 @@
+body{
+    background-color: #fde9eb;
+    margin: 0px;
+    font-size: 15px;
+}
+.navHeader{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.navHeader > .navContainer{
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navContainer > a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navContainer > a:hover{
+    border-bottom: 1px solid #f07821;
+    color: #f07821;
+}
+
+
+
+.navContainer > .btnHeader{
+    color: pink;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navContainer > #liveBtn{
+    background-color: pink;
+    border-right: 0px;
+    margin-right: 2px;
+    color: black;
+    
+}
+
+.navContainer > #liveBtn2{
+    background-color: pink;
+    margin-left:0px;
+    border-left:0px;
+    color: black
+    
+}
+
+
+#logoGazzetta{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+/* i titoli prima delle cards */
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 70%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-left: 15px;
+    
+    
+}
+
+.containerTesto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+#barretta{
+    color: grey;
+}
+
+.navMiddle{
+    margin-bottom: 50px;
+}
+
+.navContainer2{
+    padding-bottom: 7px;
+    border-bottom: 1px solid grey;
+}
+.navContainer2 > a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navContainer2 > a:hover{
+    border-bottom: solid 4px orange;
+    color: orange;
+
+}
+
+.containerBoxes{
+    display: flex;
+    flex-direction: row;
+
+}
+.containerBoxes > .boxLeft{
+    border: 2px solid #fde9eb;
+    height: 2000px;
+    width: 60%;
+    margin-right: 10px;
+
+}
+.containerBoxes > .boxRight{
+    border: 2px solid #fde9eb;
+    height: 2000px;
+    width: 35%;
+    margin-right: 10px;
+}
+
+/* card style */
+
+.card-img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    
+}
+.card-articolo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    
+}
+.card-articolo span{
+    position: relative;
+    background-color: #f07821;
+    top: 10px;
+    padding: 3px;
+    color: white;
+}
+
+.card-text{
+    padding: 15px;
+    align-items: flex-start;
+}
+
+.card-text p{
+    padding: 1px;
+    margin: 0px;
+}
+
+.card-title{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    
+}
+.card-title:hover{
+    color: #f07821;
+    cursor: pointer;
+}
+
+.card-autore{
+    color: grey;
+    font-size: 0.9em;
+
+}
+
+.art-title{
+    
+    height: 100px;
+    overflow: hidden;
+}
+
+/* box ultim'ora */
+.ultimoraTitle{
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.navUltimora{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+.navContainer3{
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 30px;
+
+}
+
+.navContainer3 > a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.navContainer3:hover{
+    border-bottom: 4px solid #f07821;
+}
+
+.navContainer3 > a:hover{
+    color: #f07821;
+    border-bottom: 4px solid #f07821;
+}
+
+.containerArticoliUltimora1{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+.roll{
+    height: 250px;
+    overflow: auto;
+}
+
+.ultimoraOra{
+    width: 50%;
+    margin-left: 0px;
+    color: #404040;
+}
+
+.ultimoraTesto{
+    width: 50%;
+}
+
+.ultimoraTesto > p{
+    font-weight: bold;
+}
+
+
+.ultimoraTesto:hover{
+    color: #f07821;
+    cursor: pointer;
+}
+
+.ultimoraTesto > p > span:hover{
+    color: #f07821;
+    cursor: pointer;
+}
+.ultimoraTesto > p > span{
+    font-weight: none;
+    color: #404040;
+}
+
+.altro{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #f07821;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: solid 4px rgba(110, 110, 110, 0.3);
+}
+
+/* i più letti */
+
+.letti-head{
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+
+}
+.letti-title{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+.elem-img{
+    width: 130px;
+    height: 80px;
+}
+
+.elem3{
+    display: flex;
+    flex-direction: row;
+}
+
+.elem-list-top3 > span{
+    position: relative;
+    font-weight: bold;
+    color: #f07821;
+    top: 15px;
+}
+
+.elem-list-top3 > .flex:hover{
+    color: #f07821;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.elem-box2{
+    padding: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.elem-box2 > p{
+    margin-top: 0px;
+    font-size: 0.9em;
+    color: grey;
+}
+
+.num-img{
+    background-color: #f07821;
+    border-radius: 50px 50px 50px 0px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 18px;
+    position: relative;
+    top:73px;
+    z-index: 5;
+}
+
+/* pre-footer */
+
+.pre-footer{
+    border-top: 1px solid grey;
+    margin-bottom: 20px;
+    
+}
+.pre-footer-title{
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+.pre-footer-cont {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+}
+
+.pre-footer-col {
+    width: 33%;
+    margin-left: 10px;
+}
+
+.pre-footer-col > section > h3{
+    margin-bottom: 0px;
+}
+
+.pre-footer-col > section > p{
+    margin-top: 0px;
+}
+
+
+/* Footer */
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-top: 10px;
+}
+
+.containerFooter{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    
+    
+}
+
+#imgFooter{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.boxFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFooter > .boxLFooter{
+    border: 1px solid black;
+    width: 25%;
+    height: 10%;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+#titleAddress{
+    margin-bottom: 0px
+}
+
+
+#sottoAddress{
+    margin-top: 0px;
+}
+
+.boxFooter > .boxCFooter{
+    border: 1px solid black;
+    width: 40%;
+    height: 10%;
+    text-align: left;
+    margin-right: 20px;
+    
+}
+
+.footerText{
+    color: white;
+}
+
+.boxRcsList{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.tagA > a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    
+    
+}
+
+.boxRcsList > .boxRcsListLeft{
+    border: 1px solid black;
+    width: 50%;
+    padding-right: 10px;
+
+}
+
+.boxRcsList > .boxRcsListRight{
+    border: 1px solid black;
+    width: 50%;
+    padding-right: 10px;
+   
+}
+
+.boxFooter > .boxRFooter{
+    border: 1px solid black;
+    width: 40%;
+    height: 10%;
+    text-align: left;
+    
+}
+
+.boxRFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxRcsCorporateLeft{
+    border: 1px solid black;
+    width: 50%;
+    padding-right: 10px;
+
+
+}
+
+.boxRcsLinkRight{
+    border: 1px solid black;
+    width: 50%;
+    padding-right: 10px;
+}
